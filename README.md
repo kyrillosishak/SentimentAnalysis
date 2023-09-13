@@ -13,9 +13,8 @@ This repository contains the code and documentation for a sentiment analysis pro
 - [Data Preprocessing](#data-preprocessing)
 - [Model Development](#model-development)
 - [Model Evaluation](#model-evaluation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Results](#results)
+
 
 ## Requirements
 
@@ -24,10 +23,7 @@ To run this project, you will need the following:
 - Python 3.6+
 - Libraries listed in `requirements.txt`
 
-You can install the required libraries using pip:
 
-```shell
-pip install -r requirements.txt
 ## Data Collection
 
 The project collects Amazon product reviews for sentiment analysis. We selected specific product categories and employed web scraping techniques to retrieve review data. The collected dataset serves as the basis for training and evaluating sentiment analysis models.
@@ -52,6 +48,7 @@ The models were trained and evaluated on the preprocessed review data, and their
 ## Model Evaluation
 
 Model evaluation metrics include accuracy, precision, recall, F1-score, and confusion matrices. We compare the performance of Logistic Regression and LSTM models and discuss their strengths and weaknesses.
+
 ## Results
 - **Logistic Regression:** Accuracy : 83.9 precent
 - **Long Short-Term Memory (LSTM):** Accuracy : 93 precent
