@@ -1,0 +1,25 @@
+pandas (import pandas as pd): Used for data manipulation and creating data structures like DataFrames.
+
+re (import re): Used for regular expressions, which are often used for text preprocessing.
+
+torch (import torch): The primary library for developing and training deep learning models.
+
+torch.nn (import torch.nn as nn): Provides classes for defining and building neural network models in PyTorch.
+
+torch.optim (import torch.optim as optim): Provides various optimization algorithms for training neural networks.
+
+torch.utils.data (from torch.utils.data import Dataset, DataLoader, TensorDataset): Used for handling and loading datasets, creating custom datasets, and setting up data loaders for training.
+
+CountVectorizer from scikit-learn (from sklearn.feature_extraction.text import CountVectorizer): Used for text vectorization, which converts text data into numerical features.
+
+train_test_split from scikit-learn (from sklearn.model_selection import train_test_split): Used for splitting the dataset into training and validation sets.
+
+accuracy_score from scikit-learn (from sklearn.metrics import accuracy_score): Used for evaluating the accuracy of the classification models.
+
+bz2 (import bz2): Used for reading BZ2 compressed files, often used for handling large text data files.
+
+collections (from collections import Counter): Used for counting word frequencies and creating dictionaries of word counts.
+
+nltk (import nltk): Natural Language Toolkit, used for various natural language processing tasks like tokenization.
+
+numpy (import numpy as np): Used for numerical computations and array operations.
